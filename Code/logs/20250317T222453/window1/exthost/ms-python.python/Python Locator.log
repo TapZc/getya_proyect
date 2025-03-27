@@ -1,0 +1,27 @@
+2025-03-17 22:24:57.009 [info] Starting Python Locator c:\Users\Charl\.vscode\extensions\ms-python.python-2025.2.0-win32-x64\python-env-tools\bin\pet.exe server
+2025-03-17 22:24:57.322 [warning] Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "El sistema no puede encontrar el archivo especificado." }
+2025-03-17 22:24:57.323 [info] Discovered env: C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe
+2025-03-17 22:24:57.770 [info] Resolved Python Environment C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe
+2025-03-17 22:24:57.877 [info] Locator Conda took 273.1636ms
+2025-03-17 22:24:57.882 [info] Locator PipEnv took 1.5982ms
+2025-03-17 22:24:57.884 [info] Locator Pixi took 319.2µs
+2025-03-17 22:24:57.890 [info] Locator Poetry took 3.331ms
+2025-03-17 22:24:57.891 [info] Locator PyEnv took 2.6168ms
+2025-03-17 22:24:57.891 [info] Locator Venv took 1.2105ms
+2025-03-17 22:24:57.892 [info] Locator VirtualEnv took 1.1934ms
+2025-03-17 22:24:57.893 [info] Locator VirtualEnvWrapper took 761.5µs
+2025-03-17 22:24:57.893 [info] Locator WindowsRegistry took 3.8546ms
+2025-03-17 22:24:57.893 [info] Locator WindowsStore took 2.6128ms
+2025-03-17 22:24:57.894 [info] Locator GlobalVirtualEnvs took 1.6308ms
+2025-03-17 22:24:57.894 [info] Locator Locators took 273.8321ms
+2025-03-17 22:24:57.894 [info] Locator Path took 5.0624ms
+2025-03-17 22:24:57.895 [info] Locator Workspaces took 4.9086ms
+2025-03-17 22:24:57.895 [info] Refresh completed in 273ms
+2025-03-18 00:33:55.124 [info] Resolved Python Environment C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe
+2025-03-18 00:35:07.760 [info] Resolved Python Environment C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe
+2025-03-18 00:35:50.776 [info] Resolved Python Environment C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe
+2025-03-18 00:37:46.471 [info] Resolved Python Environment C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe
+2025-03-18 00:38:47.831 [info] Resolved Python Environment C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe
+2025-03-18 00:39:21.031 [info] Resolved Python Environment C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe
+2025-03-18 00:40:00.596 [info] Resolved Python Environment C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe
+2025-03-18 00:40:54.085 [info] Resolved Python Environment C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe

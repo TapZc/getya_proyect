@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Modo oscuro */
+.oscuro {
+    background-color: #121212;
+    color: white;
+}
+
+.oscuro header {
+    background-color: #1e1e1e;
+}
+
+/* Encabezado */
+header {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Botón de modo oscuro */
+#modoOscuro {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#modoOscuro:hover {
+    transform: scale(1.1);
+}
+
+/* Secciones */
+main {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs y botones */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Botones específicos */
+button:first-of-type {
+    background: #ff6600;
+    color: white;
+}
+
+button:nth-of-type(2) {
+    background: #db4437;
+    color: white;
+}
+
+button:nth-of-type(3) {
+    background: black;
+    color: white;
+}
+
+.oscuro main {
+    background: #1e1e1e; /* Fondo oscuro */
+    color: white; /* Texto en blanco */
+}

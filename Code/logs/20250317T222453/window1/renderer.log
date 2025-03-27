@@ -1,0 +1,56 @@
+2025-03-17 22:24:54.690 [info] Started local extension host with pid 4064.
+2025-03-17 22:24:55.253 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-03-17 22:24:55.253 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-03-17 22:24:55.253 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-03-17 22:24:55.270 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-03-17 22:24:56.057 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2025-03-17 22:24:56.435 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-03-17 22:24:57.427 [warning] 
+
+----------------------------------------------
+***	Installation has been modified on disk ***
+----------------------------------------------
+
+
+2025-03-17 22:24:57.784 [info] [perf] Render performance baseline is 34ms
+2025-03-18 00:35:25.242 [error] Error: The editor could not be opened because the file was not found.
+    at C0e.gc (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2136:120286)
+    at async C0e.setInput (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2136:119444)
+    at async R5e.U (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:21144)
+    at async R5e.M (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:19695)
+    at async R5e.openEditor (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:684:18777)
+    at async vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:796:23631
+    at async wY.W (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1800:4285)
+2025-03-18 00:36:46.432 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Cf.getLineMaxColumn (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:253:112)
+    at vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13251
+    at HI._computeFn (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24260)
+    at HI.q (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25793)
+    at HI.get (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25545)
+    at HI.reportChanges (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:15998)
+    at rse.endUpdate (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:22892)
+    at HI.endUpdate (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26591)
+    at _5.finish (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17858)
+    at Hi (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17251)
+2025-03-18 00:39:11.533 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:11.533 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:11.533 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:13.760 [error] No default agent registered: CodeExpectedError: No default agent registered
+    at FXe.U (vscode-file://vscode-app/c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1960:25458)
+2025-03-18 00:39:18.422 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:18.422 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:18.422 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:19.659 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:19.659 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:19.659 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:59.288 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:59.288 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:59.289 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-03-18 00:39:59.656 [error] [Extension Host] Failed to load message bundle for file c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\out\extension
+2025-03-18 00:39:59.657 [error] [Extension Host] Failed to load message bundle for file c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\out\extension
+2025-03-18 00:39:59.661 [error] [Extension Host] Failed to load message bundle for file c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\out\extension
+2025-03-18 00:39:59.662 [error] [Extension Host] Failed to load message bundle for file c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\out\extension
+2025-03-18 00:39:59.663 [error] [Extension Host] Failed to load message bundle for file c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\out\extension
+2025-03-18 00:39:59.664 [error] [Extension Host] Failed to load message bundle for file c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\out\extension
+2025-03-18 00:39:59.664 [error] [Extension Host] Failed to load message bundle for file c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\out\extension
+2025-03-18 00:39:59.665 [error] [Extension Host] Failed to load message bundle for file c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\out\extension

@@ -1,0 +1,10 @@
+{
+    "git.openRepositoryInParentFolders": "always",
+    "window.confirmSaveUntitledWorkspace": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "symbols",
+    "editor.guides.bracketPairs": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.colorTheme": "Palenight Theme"
+}

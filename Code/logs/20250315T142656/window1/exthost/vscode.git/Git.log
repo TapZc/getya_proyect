@@ -1,0 +1,155 @@
+2025-03-15 14:26:59.130 [info] [main] Log level: Info
+2025-03-15 14:26:59.130 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-03-15 14:26:59.155 [info] [main] Using git "2.48.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-03-15 14:26:59.155 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-15 14:26:59.323 [info] > git rev-parse --show-toplevel [154ms]
+2025-03-15 14:26:59.408 [info] > git rev-parse --git-dir --git-common-dir [38ms]
+2025-03-15 14:26:59.417 [info] [Model][openRepository] Opened repository: c:\Users\Charl\GitHub\getyaP
+2025-03-15 14:26:59.421 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-15 14:26:59.433 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-15 14:26:59.466 [info] > git config --get commit.template [39ms]
+2025-03-15 14:26:59.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [39ms]
+2025-03-15 14:26:59.517 [info] > git status -z -uall [41ms]
+2025-03-15 14:26:59.519 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+2025-03-15 14:26:59.538 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-15 14:26:59.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [44ms]
+2025-03-15 14:26:59.574 [info] > git config --get commit.template [41ms]
+2025-03-15 14:26:59.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [42ms]
+2025-03-15 14:26:59.612 [info] > git config --get --local branch.main.vscode-merge-base [40ms]
+2025-03-15 14:26:59.612 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-15 14:26:59.628 [info] > git status -z -uall [44ms]
+2025-03-15 14:26:59.629 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [43ms]
+2025-03-15 14:26:59.659 [info] > git reflog main --grep-reflog=branch: Created from *. [42ms]
+2025-03-15 14:26:59.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [39ms]
+2025-03-15 14:26:59.710 [info] > git config --get --local branch.main.vscode-merge-base [35ms]
+2025-03-15 14:26:59.710 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-15 14:26:59.759 [info] > git reflog main --grep-reflog=branch: Created from *. [46ms]
+2025-03-15 14:26:59.766 [info] > git show --textconv :index.html [46ms]
+2025-03-15 14:26:59.768 [info] > git ls-files --stage -- index.html [44ms]
+2025-03-15 14:26:59.816 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [45ms]
+2025-03-15 14:26:59.992 [info] > git check-ignore -v -z --stdin [42ms]
+2025-03-15 14:27:33.243 [info] [main] Log level: Info
+2025-03-15 14:27:33.243 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-03-15 14:27:33.243 [info] [main] Using git "2.48.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-03-15 14:27:33.243 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-15 14:27:33.276 [info] > git rev-parse --show-toplevel [38ms]
+2025-03-15 14:27:33.276 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-15 14:27:33.278 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-15 14:27:33.731 [info] > git rev-parse --show-toplevel [34ms]
+2025-03-15 14:27:33.731 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-15 14:27:44.327 [info] > git rev-parse --show-toplevel [39ms]
+2025-03-15 14:27:44.327 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-15 14:28:05.218 [info] > git rev-parse --show-toplevel [41ms]
+2025-03-15 14:28:05.256 [info] > git rev-parse --git-dir --git-common-dir [34ms]
+2025-03-15 14:28:05.264 [info] [Model][openRepository] Opened repository: c:\Users\Charl\Desktop\getya proyecto
+2025-03-15 14:28:05.273 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-15 14:28:05.311 [info] > git config --get commit.template [39ms]
+2025-03-15 14:28:05.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [38ms]
+2025-03-15 14:28:05.315 [warning] [Git][getBranch] No such branch: master
+2025-03-15 14:28:05.358 [info] > git status -z -uall [40ms]
+2025-03-15 14:28:05.360 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [37ms]
+2025-03-15 14:28:05.377 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-15 14:28:05.408 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [42ms]
+2025-03-15 14:28:05.408 [warning] [Git][getBranch] No such branch: master
+2025-03-15 14:28:05.408 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-03-15 14:28:05.412 [info] > git config --get commit.template [39ms]
+2025-03-15 14:28:05.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [40ms]
+2025-03-15 14:28:05.416 [warning] [Git][getBranch] No such branch: master
+2025-03-15 14:28:05.458 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [36ms]
+2025-03-15 14:28:05.458 [info] > git status -z -uall [40ms]
+2025-03-15 14:28:05.901 [info] > git check-ignore -v -z --stdin [95ms]
+2025-03-15 14:28:49.472 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-15 14:28:49.510 [info] > git config --get commit.template [39ms]
+2025-03-15 14:28:49.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [39ms]
+2025-03-15 14:28:49.514 [warning] [Git][getBranch] No such branch: master
+2025-03-15 14:28:49.554 [info] > git status -z -uall [39ms]
+2025-03-15 14:28:49.555 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [36ms]
+2025-03-15 14:28:49.995 [info] > git show --textconv :index.html [80ms]
+2025-03-15 14:28:49.998 [info] > git show --textconv HEAD:index.html [66ms]
+2025-03-15 14:28:50.003 [info] > git ls-files --stage -- index.html [58ms]
+2025-03-15 14:28:50.007 [info] > git ls-tree -l HEAD -- index.html [53ms]
+2025-03-15 14:28:50.007 [info] fatal: Not a valid object name HEAD
+2025-03-15 14:28:50.039 [info] > git hash-object -t tree /dev/null [38ms]
+2025-03-15 14:28:50.040 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/Charl/Desktop/getya%20proyecto/index.html.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CCharl%5C%5CDesktop%5C%5Cgetya%20proyecto%5C%5Cindex.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-03-15 14:28:50.045 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [38ms]
+2025-03-15 14:28:50.047 [info] > git hash-object -t tree /dev/null [37ms]
+2025-03-15 14:28:50.047 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/Charl/Desktop/getya%20proyecto/index.html.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CCharl%5C%5CDesktop%5C%5Cgetya%20proyecto%5C%5Cindex.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-03-15 14:30:07.792 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-15 14:30:07.830 [info] > git config --get commit.template [45ms]
+2025-03-15 14:30:07.833 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [42ms]
+2025-03-15 14:30:07.875 [info] > git status -z -uall [39ms]
+2025-03-15 14:30:07.875 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [37ms]
+2025-03-15 14:30:07.911 [info] > git ls-files --stage -- index.html [37ms]
+2025-03-15 14:30:07.948 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [35ms]
+2025-03-15 14:30:07.992 [info] > git show --textconv :index.html [40ms]
+2025-03-15 14:31:17.577 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-15 14:31:17.614 [info] > git config --get commit.template [43ms]
+2025-03-15 14:31:17.620 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [44ms]
+2025-03-15 14:31:17.664 [info] > git status -z -uall [40ms]
+2025-03-15 14:31:17.664 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [37ms]
+2025-03-15 14:31:17.698 [info] > git ls-files --stage -- index.html [35ms]
+2025-03-15 14:31:17.704 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [35ms]
+2025-03-15 14:31:17.737 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [36ms]
+2025-03-15 14:31:17.742 [info] > git config --get --local branch.main.vscode-merge-base [34ms]
+2025-03-15 14:31:17.742 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-15 14:31:17.776 [info] > git show --textconv :index.html [36ms]
+2025-03-15 14:31:17.781 [info] > git reflog main --grep-reflog=branch: Created from *. [36ms]
+2025-03-15 14:31:36.255 [info] > git config --get commit.template [66ms]
+2025-03-15 14:31:36.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [59ms]
+2025-03-15 14:31:36.302 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+2025-03-15 14:31:36.303 [info] > git status -z -uall [41ms]
+2025-03-15 14:31:36.331 [info] > git ls-files --stage -- index.html [38ms]
+2025-03-15 14:31:36.367 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [34ms]
+2025-03-15 14:31:36.406 [info] > git show --textconv :index.html [35ms]
+2025-03-15 14:34:03.509 [info] > git config --get commit.template [64ms]
+2025-03-15 14:34:03.510 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [56ms]
+2025-03-15 14:34:03.510 [info] > git ls-files --stage -- index.html [61ms]
+2025-03-15 14:34:03.560 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [47ms]
+2025-03-15 14:34:03.567 [info] > git status -z -uall [50ms]
+2025-03-15 14:34:03.568 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [48ms]
+2025-03-15 14:34:03.626 [info] > git show --textconv :index.html [61ms]
+2025-03-15 14:34:03.634 [info] > git merge-base refs/heads/main refs/remotes/origin/main [58ms]
+2025-03-15 14:34:03.678 [info] > git diff --name-status -z --diff-filter=ADMR 7da453d3d329a08ade814fb5d4c273ea31eb5c16...refs/remotes/origin/main [41ms]
+2025-03-15 14:34:18.537 [info] > git check-ignore -v -z --stdin [43ms]
+2025-03-15 14:34:19.132 [info] > git config --get commit.template [53ms]
+2025-03-15 14:34:19.137 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [47ms]
+2025-03-15 14:34:19.179 [info] > git status -z -uall [39ms]
+2025-03-15 14:34:19.180 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [37ms]
+2025-03-15 14:34:27.268 [info] > git show --textconv :css/estilos.css [42ms]
+2025-03-15 14:34:27.268 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/Charl/Desktop/getya%20proyecto/css/estilos.css.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CCharl%5C%5CDesktop%5C%5Cgetya%20proyecto%5C%5Ccss%5C%5Cestilos.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-15 14:34:27.270 [info] > git ls-files --stage -- css/estilos.css [40ms]
+2025-03-15 14:34:27.271 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/Charl/Desktop/getya%20proyecto/css/estilos.css.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CCharl%5C%5CDesktop%5C%5Cgetya%20proyecto%5C%5Ccss%5C%5Cestilos.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-15 14:34:27.589 [info] > git check-ignore -v -z --stdin [57ms]
+2025-03-15 14:34:28.210 [info] > git config --get commit.template [72ms]
+2025-03-15 14:34:28.215 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [62ms]
+2025-03-15 14:34:28.258 [info] > git status -z -uall [40ms]
+2025-03-15 14:34:28.259 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [38ms]
+2025-03-15 14:35:20.187 [info] > git config --get commit.template [48ms]
+2025-03-15 14:35:20.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [46ms]
+2025-03-15 14:35:20.236 [info] > git status -z -uall [42ms]
+2025-03-15 14:35:20.237 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+2025-03-15 14:35:20.608 [info] > git show --textconv :css/estilos.css [47ms]
+2025-03-15 14:35:20.614 [info] > git show --textconv HEAD:css/estilos.css [49ms]
+2025-03-15 14:35:20.615 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/Charl/Desktop/getya%20proyecto/css/estilos.css.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CCharl%5C%5CDesktop%5C%5Cgetya%20proyecto%5C%5Ccss%5C%5Cestilos.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-03-15 14:35:20.617 [info] > git ls-files --stage -- css/estilos.css [47ms]
+2025-03-15 14:35:20.620 [info] > git ls-tree -l HEAD -- css/estilos.css [46ms]
+2025-03-15 14:35:20.620 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/Charl/Desktop/getya%20proyecto/css/estilos.css.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CCharl%5C%5CDesktop%5C%5Cgetya%20proyecto%5C%5Ccss%5C%5Cestilos.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-03-15 14:35:20.655 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [35ms]
+2025-03-15 14:36:03.371 [info] > git config --get commit.template [74ms]
+2025-03-15 14:36:03.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [66ms]
+2025-03-15 14:36:03.423 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [41ms]
+2025-03-15 14:36:03.424 [info] > git status -z -uall [45ms]
+2025-03-15 14:36:03.430 [info] > git ls-files --stage -- css/estilos.css [43ms]
+2025-03-15 14:36:03.469 [info] > git merge-base refs/heads/main refs/remotes/origin/main [40ms]
+2025-03-15 14:36:03.472 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [39ms]
+2025-03-15 14:36:03.509 [info] > git diff --name-status -z --diff-filter=ADMR 7da453d3d329a08ade814fb5d4c273ea31eb5c16...refs/remotes/origin/main [38ms]
+2025-03-15 14:36:03.513 [info] > git show --textconv :css/estilos.css [37ms]
+2025-03-15 14:36:22.873 [info] > git config --get commit.template [41ms]
+2025-03-15 14:36:22.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [42ms]
+2025-03-15 14:36:22.925 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [41ms]
+2025-03-15 14:36:22.926 [info] > git status -z -uall [45ms]
+2025-03-15 14:36:22.963 [info] > git ls-files --stage -- css/estilos.css [38ms]
+2025-03-15 14:36:22.970 [info] > git merge-base refs/heads/main refs/remotes/origin/main [39ms]
+2025-03-15 14:36:23.002 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [37ms]
+2025-03-15 14:36:23.013 [info] > git diff --name-status -z --diff-filter=ADMR 46be3a2cec03e56b1486da9d5a63182ea435c2f6...refs/remotes/origin/main [40ms]
+2025-03-15 14:36:23.043 [info] > git show --textconv :css/estilos.css [38ms]

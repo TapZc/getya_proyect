@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo - Motivación</title>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            padding-top: 50px;
+        }
+        button {
+            background-color: green;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: limegreen;
+        }
+        #fraseMotivadora {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a Neo</h1>
+    <p>Estoy aquí para motivarte y acompañarte en tu camino como programador.</p>
+    <button onclick="mostrarFrase()">Obtener Frase Motivadora</button>
+    <p id="fraseMotivadora"></p>
+
+    <script>
+        function mostrarFrase() {
+            const frases = [
+                '"Si puedes imaginarlo, puedes programarlo." - Alejandro Taboada Sánchez (Programación ATS)',
+                'Cada error es un paso más hacia el éxito.',
+                'No te rindas, hoy puede ser el día que todo cambie.',
+                'El mejor programador no es el que nunca falla, sino el que nunca se rinde.',
+                'El código limpio es como poesía: elegante y fácil de entender.'
+            ];
+
+            const indice = Math.floor(Math.random() * frases.length);
+            document.getElementById('fraseMotivadora').textContent = frases[indice];
+        }
+    </script>
+</body>
+</html>

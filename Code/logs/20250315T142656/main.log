@@ -1,0 +1,19 @@
+2025-03-15 14:26:56.566 [info] update#setState idle
+2025-03-15 14:27:26.577 [info] update#setState checking for updates
+2025-03-15 14:27:26.719 [info] update#setState idle
+2025-03-15 14:27:29.721 [info] Extension host with pid 14952 exited with code: 0, signal: unknown.
+2025-03-15 20:20:01.452 [info] update#setState checking for updates
+2025-03-15 20:20:01.455 [error] #4: https://update.code.visualstudio.com/api/update/win32-x64-user/stable/ddc367ed5c8936efe395cffeec279b04ffd7db78 - error undefined net::ERR_NETWORK_IO_SUSPENDED
+2025-03-15 20:20:01.457 [error] Error: net::ERR_NETWORK_IO_SUSPENDED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:118774)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-03-15 20:20:01.458 [info] update#setState idle
+2025-03-15 21:20:01.458 [info] update#setState checking for updates
+2025-03-15 21:20:01.834 [info] update#setState idle
+2025-03-15 22:20:01.470 [info] update#setState checking for updates
+2025-03-15 22:20:01.841 [info] update#setState idle
+2025-03-15 23:20:01.488 [info] update#setState checking for updates
+2025-03-15 23:20:01.891 [info] update#setState idle
+2025-03-15 23:36:59.824 [error] [UtilityProcess type: shared-process, pid: 3460]: crashed with code 1073807364 and reason 'killed'
+2025-03-15 23:36:59.828 [error] ptyHost terminated unexpectedly with code 1073807364
+2025-03-15 23:36:59.841 [warning] [UtilityProcess type: ptyHost, pid: 17288]: unable to kill the process

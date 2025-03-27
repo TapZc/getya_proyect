@@ -1,0 +1,14 @@
+2025-03-16 12:58:37.370 [info] Log level: Info
+2025-03-16 12:58:37.756 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-03-16 12:58:45.251 [info] Log level: Info
+2025-03-16 12:58:45.829 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-03-16 13:03:09.251 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for TapZc/getya_proyect: Error: No GitHub authentication session available.
+2025-03-16 13:11:51.539 [info] Log level: Info
+2025-03-16 13:11:52.047 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-03-16 13:19:58.671 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for TapZc/getya_proyect: Error: No GitHub authentication session available.
+2025-03-16 13:23:39.531 [info] Log level: Info
+2025-03-16 13:23:39.815 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-03-16 13:25:58.473 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for TapZc/getya_proyect: Error: No GitHub authentication session available.
+2025-03-16 13:33:01.810 [info] Log level: Info
+2025-03-16 13:33:02.192 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-03-16 13:33:05.394 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for TapZc/getya_proyect: Error: No GitHub authentication session available.

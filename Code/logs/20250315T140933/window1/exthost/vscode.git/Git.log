@@ -1,0 +1,27 @@
+2025-03-15 14:09:35.700 [info] [main] Log level: Info
+2025-03-15 14:09:35.700 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-03-15 14:09:35.749 [info] [main] Using git "2.48.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-03-15 14:09:35.749 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-15 14:09:35.911 [info] > git rev-parse --show-toplevel [143ms]
+2025-03-15 14:09:36.025 [info] > git rev-parse --git-dir --git-common-dir [51ms]
+2025-03-15 14:09:36.037 [info] [Model][openRepository] Opened repository: c:\Users\Charl\Desktop\Getya
+2025-03-15 14:09:36.041 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-15 14:09:36.105 [info] > git config --get commit.template [56ms]
+2025-03-15 14:09:36.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [76ms]
+2025-03-15 14:09:36.129 [warning] [Git][getBranch] No such branch: master
+2025-03-15 14:09:36.192 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [51ms]
+2025-03-15 14:09:36.199 [info] > git status -z -uall [64ms]
+2025-03-15 14:09:36.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [45ms]
+2025-03-15 14:09:36.249 [warning] [Git][getBranch] No such branch: master
+2025-03-15 14:09:36.250 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-03-15 14:09:36.254 [info] > git config --get commit.template [45ms]
+2025-03-15 14:09:36.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [43ms]
+2025-03-15 14:09:36.256 [warning] [Git][getBranch] No such branch: master
+2025-03-15 14:09:36.298 [info] > git status -z -uall [40ms]
+2025-03-15 14:09:36.300 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+2025-03-15 14:09:36.645 [info] > git check-ignore -v -z --stdin [41ms]
+2025-03-15 14:09:59.477 [info] > git config --get commit.template [41ms]
+2025-03-15 14:09:59.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [43ms]
+2025-03-15 14:09:59.481 [warning] [Git][getBranch] No such branch: master
+2025-03-15 14:09:59.523 [info] > git status -z -uall [40ms]
+2025-03-15 14:09:59.525 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [38ms]

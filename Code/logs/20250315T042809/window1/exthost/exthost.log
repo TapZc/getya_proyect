@@ -1,0 +1,13 @@
+2025-03-15 04:28:11.033 [info] Extension host with pid 16636 started
+2025-03-15 04:28:11.033 [info] Skipping acquiring lock for c:\Users\Charl\AppData\Roaming\Code\User\workspaceStorage\152c5c67aebe495e06e60d5b36af3b0c.
+2025-03-15 04:28:11.056 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-03-15 04:28:11.154 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-15 04:28:11.295 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-15 04:28:11.376 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-15 04:28:11.482 [info] Eager extensions activated
+2025-03-15 04:28:11.532 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-15 04:28:11.536 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-15 04:28:11.557 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2025-03-15 04:28:11.561 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2025-03-15 04:31:59.355 [info] Extension host terminating: renderer closed the MessagePort
+2025-03-15 04:31:59.369 [info] Extension host with pid 16636 exiting with code 0

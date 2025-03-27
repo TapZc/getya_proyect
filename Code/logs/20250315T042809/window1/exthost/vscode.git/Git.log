@@ -1,0 +1,50 @@
+2025-03-15 04:28:11.450 [info] [main] Log level: Info
+2025-03-15 04:28:11.450 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-03-15 04:28:11.478 [info] [main] Using git "2.48.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-03-15 04:28:11.478 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-15 04:28:11.638 [info] > git rev-parse --show-toplevel [147ms]
+2025-03-15 04:28:11.638 [info] fatal: detected dubious ownership in repository at 'C:/Users/Charl/Desktop/Getya'
+'C:/Users/Charl/Desktop/Getya/.git' is owned by:
+	BUILTIN/Administradores (S-1-5-32-544)
+but the current user is:
+	CARLOS/Charl (S-1-5-21-1440375375-2436367892-3146296272-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/Charl/Desktop/Getya
+2025-03-15 04:28:11.690 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (1)
+2025-03-15 04:28:12.536 [info] > git rev-parse --show-toplevel [40ms]
+2025-03-15 04:28:12.536 [info] fatal: detected dubious ownership in repository at 'C:/Users/Charl/Desktop/Getya'
+'C:/Users/Charl/Desktop/Getya/.git' is owned by:
+	BUILTIN/Administradores (S-1-5-32-544)
+but the current user is:
+	CARLOS/Charl (S-1-5-21-1440375375-2436367892-3146296272-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/Charl/Desktop/Getya
+2025-03-15 04:28:12.817 [info] > git rev-parse --show-toplevel [48ms]
+2025-03-15 04:28:12.817 [info] fatal: detected dubious ownership in repository at 'C:/Users/Charl/Desktop/Getya'
+'C:/Users/Charl/Desktop/Getya/.git' is owned by:
+	BUILTIN/Administradores (S-1-5-32-544)
+but the current user is:
+	CARLOS/Charl (S-1-5-21-1440375375-2436367892-3146296272-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/Charl/Desktop/Getya
+2025-03-15 04:28:13.910 [info] > git rev-parse --show-toplevel [43ms]
+2025-03-15 04:28:13.910 [info] fatal: detected dubious ownership in repository at 'C:/Users/Charl/Desktop/Getya'
+'C:/Users/Charl/Desktop/Getya/.git' is owned by:
+	BUILTIN/Administradores (S-1-5-32-544)
+but the current user is:
+	CARLOS/Charl (S-1-5-21-1440375375-2436367892-3146296272-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/Charl/Desktop/Getya
+2025-03-15 04:28:30.059 [info] > git rev-parse --show-toplevel [38ms]
+2025-03-15 04:28:30.059 [info] fatal: detected dubious ownership in repository at 'C:/Users/Charl/Desktop/Getya'
+'C:/Users/Charl/Desktop/Getya/.git' is owned by:
+	BUILTIN/Administradores (S-1-5-32-544)
+but the current user is:
+	CARLOS/Charl (S-1-5-21-1440375375-2436367892-3146296272-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/Charl/Desktop/Getya

@@ -1,0 +1,329 @@
+2025-03-18 00:42:49.767 [info] Extension host with pid 9516 started
+2025-03-18 00:42:49.767 [info] Skipping acquiring lock for c:\Users\Charl\AppData\Roaming\Code\User\workspaceStorage\b5b5b74d9a59e71a7f649ec1fa24f892.
+2025-03-18 00:42:50.060 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-03-18 00:42:50.092 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-18 00:42:50.115 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.default'
+2025-03-18 00:42:50.801 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-03-18 00:42:51.001 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2025-03-18 00:42:51.139 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2025-03-18 00:42:51.178 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-03-18 00:42:51.218 [info] ExtensionService#_doActivateExtension ms-edgedevtools.vscode-edge-devtools, startup: false, activationEvent: 'onLanguage:css'
+2025-03-18 00:42:51.907 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-18 00:42:51.911 [info] ExtensionService#_doActivateExtension SirTori.indenticator, startup: true, activationEvent: '*'
+2025-03-18 00:42:52.087 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-18 00:42:52.155 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-18 00:42:52.427 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-03-18 00:42:52.475 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-03-18 00:42:52.823 [info] Eager extensions activated
+2025-03-18 00:42:52.893 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:52.897 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:52.915 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:53.054 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:53.057 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:53.414 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:53.513 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:53.559 [info] ExtensionService#_doActivateExtension miguelsolorio.symbols, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:53.575 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:53.646 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:53.653 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:42:53.659 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 00:46:08.794 [info] Extension host terminating: renderer closed the MessagePort
+2025-03-18 00:46:08.810 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2025-03-18 00:46:08.818 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+    at Object.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:119760)
+    at fv.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8922)
+    at fv.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9018)
+    at Object.dispose (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1154:126443)
+    at c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1425:15122
+    at Array.forEach (<anonymous>)
+    at Object.dispose (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1425:15104)
+    at hi (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+    at Array.map (<anonymous>)
+    at zz.$ (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+    at zz.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+    at OI.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+    at MessagePortMain.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-03-18 00:46:08.857 [error] Canceled: Canceled
+    at new dR (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+    at qy.U (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at r.registerCommand.description (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+    at Sw.h (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at Object.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+    at Th.L [as value] (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1000063)
+    at P.B (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.C (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+    at P.fire (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+    at Object.p [as dispose] (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1022703)
+    at c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1029021
+    at Array.forEach (<anonymous>)
+    at b.dispose (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1029007)
+    at fv.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8922)
+    at fv.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9018)
+    at fv.<anonymous> (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1002547)
+    at fv.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9018)
+    at hi (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+    at Array.map (<anonymous>)
+    at zz.$ (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+    at zz.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+    at OI.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+    at MessagePortMain.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-18 00:46:08.861 [error] Canceled: Canceled
+    at new dR (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+    at qy.U (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at r.registerCommand.description (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+    at Sw.h (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at Object.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+    at t.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\github\dist\extension.js:2:217805)
+    at c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\github\dist\extension.js:2:218764
+    at Th.value (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1120702)
+    at P.B (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.C (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+    at P.fire (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+    at Object.p [as dispose] (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1022703)
+    at c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1029021
+    at Array.forEach (<anonymous>)
+    at b.dispose (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1029007)
+    at fv.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8922)
+    at fv.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9018)
+    at fv.<anonymous> (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1002547)
+    at fv.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9018)
+    at hi (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+    at Array.map (<anonymous>)
+    at zz.$ (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+    at zz.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+    at OI.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+    at MessagePortMain.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-18 00:46:08.872 [error] Canceled: Canceled
+    at new dR (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+    at qy.U (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at r.registerCommand.description (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+    at Sw.h (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at Object.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+    at e (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2081:447845)
+    at Object.i [as setContext] (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2081:447960)
+    at Mf.updateActiveReviewCount (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2190:21287)
+    at Mf.removeRepo (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2190:22472)
+    at Th.value (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2526:4265)
+    at P.B (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.C (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+    at P.fire (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+    at Th.value (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2081:444625)
+    at P.B (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.fire (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2190:26488
+    at Th.value (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1120702)
+    at P.B (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.C (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+    at P.fire (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+    at Object.p [as dispose] (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1022703)
+    at c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1029021
+    at Array.forEach (<anonymous>)
+    at b.dispose (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1029007)
+    at fv.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8922)
+    at fv.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9018)
+    at fv.<anonymous> (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1002547)
+    at fv.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9018)
+    at hi (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+    at Array.map (<anonymous>)
+    at zz.$ (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+    at zz.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+    at OI.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+    at MessagePortMain.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-18 00:46:08.873 [error] Canceled: Canceled
+    at new dR (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+    at qy.U (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at r.registerCommand.description (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+    at Sw.h (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at Object.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+    at e (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2081:447845)
+    at Object.i [as setContext] (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2081:447960)
+    at hf.setReviewModeContexts (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2513:19366)
+    at hf.removePrFromView (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2513:19993)
+    at Of.clear (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2171:8134)
+    at Of.dispose (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2173:188)
+    at Ef.removeReviewManager (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2513:51034)
+    at Th.value (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2526:4283)
+    at P.B (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.C (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+    at P.fire (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+    at Th.value (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2081:444625)
+    at P.B (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.fire (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2190:26488
+    at Th.value (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1120702)
+    at P.B (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.C (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+    at P.fire (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+    at Object.p [as dispose] (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1022703)
+    at c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1029021
+    at Array.forEach (<anonymous>)
+    at b.dispose (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1029007)
+    at fv.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8922)
+    at fv.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9018)
+    at fv.<anonymous> (c:\Users\Charl\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1002547)
+    at fv.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9018)
+    at hi (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+    at Array.map (<anonymous>)
+    at zz.$ (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+    at zz.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+    at OI.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+    at MessagePortMain.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-18 00:46:08.874 [error] Canceled: Canceled
+    at new dR (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+    at qy.U (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at r.registerCommand.description (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+    at Sw.h (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at Object.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+    at f (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1479:63905)
+    at c (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1479:68465)
+    at ActionRunners._updateContextKeys (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:92462)
+    at s (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:90906)
+    at RegisteredActionRunner.unregister (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:91049)
+    at RegisteredActionRunner.dispose (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:89716)
+    at Object.dispose (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:91143)
+    at hi (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+    at Array.map (<anonymous>)
+    at zz.$ (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+    at zz.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+    at OI.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+    at MessagePortMain.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-18 00:46:08.874 [error] Canceled: Canceled
+    at new dR (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+    at qy.U (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at r.registerCommand.description (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+    at Sw.h (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at Object.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+    at f (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1479:63905)
+    at c (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1479:68465)
+    at ActionRunners._updateContextKeys (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:92462)
+    at s (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:90906)
+    at RegisteredActionRunner.unregister (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:91049)
+    at RegisteredActionRunner.dispose (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:89716)
+    at Object.dispose (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:91143)
+    at hi (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+    at Array.map (<anonymous>)
+    at zz.$ (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+    at zz.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+    at OI.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+    at MessagePortMain.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-18 00:46:08.875 [error] Canceled: Canceled
+    at new dR (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+    at qy.U (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at r.registerCommand.description (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+    at Sw.h (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+    at Sw.g (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+    at Sw.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+    at Object.executeCommand (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+    at f (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1479:63905)
+    at c (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1479:68465)
+    at ActionRunners._updateContextKeys (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:92462)
+    at s (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:90906)
+    at RegisteredActionRunner.unregister (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:91049)
+    at RegisteredActionRunner.dispose (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:89716)
+    at Object.dispose (c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3\dist\gitlens.js:1104:91143)
+    at p (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2081:429091)
+    at kw.dispose (c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0\dist\extension.js:2081:429259)
+    at hi (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+    at file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+    at Array.map (<anonymous>)
+    at zz.$ (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+    at zz.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+    at OI.terminate (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+    at MessagePortMain.<anonymous> (file:///c:/Users/Charl/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-18 00:46:08.880 [info] Extension host with pid 9516 exiting with code 0

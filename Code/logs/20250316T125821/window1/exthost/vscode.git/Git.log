@@ -1,0 +1,39 @@
+2025-03-16 12:58:23.958 [info] [main] Log level: Info
+2025-03-16 12:58:23.958 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-03-16 12:58:23.992 [info] [main] Using git "2.48.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-03-16 12:58:23.992 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-16 12:58:24.141 [info] > git rev-parse --show-toplevel [131ms]
+2025-03-16 12:58:24.225 [info] > git rev-parse --git-dir --git-common-dir [42ms]
+2025-03-16 12:58:24.233 [info] [Model][openRepository] Opened repository: c:\Users\Charl\Desktop\getya proyecto
+2025-03-16 12:58:24.237 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-16 12:58:24.292 [info] > git config --get commit.template [49ms]
+2025-03-16 12:58:24.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [57ms]
+2025-03-16 12:58:24.370 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [47ms]
+2025-03-16 12:58:24.377 [info] > git status -z -uall [59ms]
+2025-03-16 12:58:24.442 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [55ms]
+2025-03-16 12:58:24.447 [info] > git config --get commit.template [55ms]
+2025-03-16 12:58:24.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [56ms]
+2025-03-16 12:58:24.490 [info] > git config --get --local branch.main.vscode-merge-base [43ms]
+2025-03-16 12:58:24.490 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-16 12:58:24.506 [info] > git status -z -uall [49ms]
+2025-03-16 12:58:24.508 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [48ms]
+2025-03-16 12:58:24.548 [info] > git reflog main --grep-reflog=branch: Created from *. [54ms]
+2025-03-16 12:58:24.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [49ms]
+2025-03-16 12:58:24.602 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [50ms]
+2025-03-16 12:58:24.602 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-16 12:58:24.602 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-16 12:58:24.611 [info] > git show --textconv :css/estilos.css [53ms]
+2025-03-16 12:58:24.613 [info] > git ls-files --stage -- css/estilos.css [51ms]
+2025-03-16 12:58:24.618 [info] > git config --get --local branch.main.vscode-merge-base [51ms]
+2025-03-16 12:58:24.618 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-16 12:58:24.657 [info] > git merge-base refs/heads/main refs/remotes/origin/main [50ms]
+2025-03-16 12:58:24.666 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [49ms]
+2025-03-16 12:58:24.668 [info] > git reflog main --grep-reflog=branch: Created from *. [46ms]
+2025-03-16 12:58:24.703 [info] > git diff --name-status -z --diff-filter=ADMR 46be3a2cec03e56b1486da9d5a63182ea435c2f6...refs/remotes/origin/main [42ms]
+2025-03-16 12:58:24.711 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [40ms]
+2025-03-16 12:58:24.711 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-16 12:58:24.711 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-16 12:58:24.797 [info] > git check-ignore -v -z --stdin [40ms]
+2025-03-16 12:58:25.539 [info] > git ls-files --stage -- css/estilos.css [51ms]
+2025-03-16 12:58:25.585 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [42ms]
+2025-03-16 12:58:25.628 [info] > git show --textconv :css/estilos.css [38ms]

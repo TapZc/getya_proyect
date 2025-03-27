@@ -1,0 +1,3 @@
+2025-03-15 20:20:01.472 [error] #31: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NETWORK_IO_SUSPENDED
+2025-03-15 20:20:03.473 [error] #32: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NETWORK_IO_SUSPENDED
+2025-03-15 20:20:06.612 [error] #33: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NETWORK_IO_SUSPENDED

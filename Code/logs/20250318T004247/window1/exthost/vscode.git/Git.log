@@ -1,0 +1,39 @@
+2025-03-18 00:42:54.199 [info] [main] Log level: Info
+2025-03-18 00:42:54.200 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-03-18 00:42:54.200 [info] [main] Using git "2.48.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-03-18 00:42:54.200 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-18 00:42:54.200 [info] > git rev-parse --show-toplevel [861ms]
+2025-03-18 00:42:54.200 [info] > git rev-parse --git-dir --git-common-dir [127ms]
+2025-03-18 00:42:54.200 [info] [Model][openRepository] Opened repository: c:\Users\Charl\Desktop\getya proyecto
+2025-03-18 00:42:54.231 [info] > git rev-parse --show-toplevel [85ms]
+2025-03-18 00:42:54.233 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-18 00:42:54.234 [info] > git config --get commit.template [92ms]
+2025-03-18 00:42:54.266 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [57ms]
+2025-03-18 00:42:54.356 [info] > git status -z -uall [63ms]
+2025-03-18 00:42:54.356 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [57ms]
+2025-03-18 00:42:54.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [126ms]
+2025-03-18 00:42:54.506 [info] > git config --get commit.template [134ms]
+2025-03-18 00:42:54.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [141ms]
+2025-03-18 00:42:54.634 [info] > git status -z -uall [117ms]
+2025-03-18 00:42:54.636 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [114ms]
+2025-03-18 00:42:54.644 [info] > git config --get --local branch.main.vscode-merge-base [134ms]
+2025-03-18 00:42:54.644 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-18 00:42:54.723 [info] > git reflog main --grep-reflog=branch: Created from *. [73ms]
+2025-03-18 00:42:54.727 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [85ms]
+2025-03-18 00:42:54.780 [info] > git config --get --local branch.main.github-pr-owner-number [60ms]
+2025-03-18 00:42:54.780 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-18 00:42:54.791 [info] > git config --get --local branch.main.vscode-merge-base [59ms]
+2025-03-18 00:42:54.791 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-18 00:42:54.795 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [69ms]
+2025-03-18 00:42:54.795 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-18 00:42:54.795 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-18 00:42:54.802 [info] > git check-ignore -v -z --stdin [65ms]
+2025-03-18 00:42:54.849 [info] > git reflog main --grep-reflog=branch: Created from *. [54ms]
+2025-03-18 00:42:54.853 [info] > git merge-base refs/heads/main refs/remotes/origin/main [52ms]
+2025-03-18 00:42:54.900 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [48ms]
+2025-03-18 00:42:54.900 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-18 00:42:54.900 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-18 00:42:54.907 [info] > git diff --name-status -z --diff-filter=ADMR 46be3a2cec03e56b1486da9d5a63182ea435c2f6...refs/remotes/origin/main [49ms]
+2025-03-18 00:42:54.949 [info] > git merge-base refs/heads/main refs/remotes/origin/main [45ms]
+2025-03-18 00:42:55.016 [info] > git diff --name-status -z --diff-filter=ADMR 46be3a2cec03e56b1486da9d5a63182ea435c2f6...refs/remotes/origin/main [63ms]
+2025-03-18 00:43:19.239 [info] > git check-ignore -v -z --stdin [41ms]

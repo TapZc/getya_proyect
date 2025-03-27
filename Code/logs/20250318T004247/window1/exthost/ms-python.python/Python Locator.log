@@ -1,0 +1,19 @@
+2025-03-18 00:42:54.136 [info] Starting Python Locator c:\Users\Charl\.vscode\extensions\ms-python.python-2025.2.0-win32-x64\python-env-tools\bin\pet.exe server
+2025-03-18 00:42:54.514 [warning] Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "El sistema no puede encontrar el archivo especificado." }
+2025-03-18 00:42:54.524 [info] Discovered env: C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe
+2025-03-18 00:42:54.527 [info] Locator Conda took 148.493ms
+2025-03-18 00:42:54.527 [info] Locator PipEnv took 20.2µs
+2025-03-18 00:42:54.527 [info] Locator Pixi took 33.4µs
+2025-03-18 00:42:54.527 [info] Locator Poetry took 3.5982ms
+2025-03-18 00:42:54.527 [info] Locator PyEnv took 1.2072ms
+2025-03-18 00:42:54.528 [info] Locator Venv took 22µs
+2025-03-18 00:42:54.528 [info] Locator VirtualEnv took 302.3µs
+2025-03-18 00:42:54.528 [info] Locator VirtualEnvWrapper took 763.9µs
+2025-03-18 00:42:54.528 [info] Locator WindowsRegistry took 2.6152ms
+2025-03-18 00:42:54.528 [info] Locator WindowsStore took 1.0179ms
+2025-03-18 00:42:54.528 [info] Locator GlobalVirtualEnvs took 1.0165ms
+2025-03-18 00:42:54.528 [info] Locator Locators took 149.7152ms
+2025-03-18 00:42:54.528 [info] Locator Path took 6.8762ms
+2025-03-18 00:42:54.528 [info] Locator Workspaces took 6.4478ms
+2025-03-18 00:42:54.528 [info] Refresh completed in 149ms
+2025-03-18 00:42:54.530 [info] Resolved Python Environment C:\Users\Charl\AppData\Local\Programs\Python\Python313\python.exe

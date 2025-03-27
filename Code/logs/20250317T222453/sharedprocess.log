@@ -1,0 +1,38 @@
+2025-03-17 22:24:55.483 [info] Marked extension as removed robbowen.synthwave-vscode-0.1.18
+2025-03-17 22:24:55.531 [info] Deleted marked for removal extension from disk robbowen.synthwave-vscode c:\Users\Charl\.vscode\extensions\robbowen.synthwave-vscode-0.1.18
+2025-03-18 00:37:46.612 [info] Uninstalling extension from the profile: sallar.vscode-duotone-dark@0.3.3 vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json
+2025-03-18 00:37:46.676 [info] Marked extension as removed sallar.vscode-duotone-dark-0.3.3
+2025-03-18 00:37:46.874 [info] Successfully uninstalled extension from the profile sallar.vscode-duotone-dark@0.3.3 vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json
+2025-03-18 00:38:57.583 [info] Uninstalling extension from the profile: whizkydee.material-palenight-theme@2.0.4 vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json
+2025-03-18 00:38:57.637 [info] Marked extension as removed whizkydee.material-palenight-theme-2.0.4
+2025-03-18 00:38:57.743 [info] Successfully uninstalled extension from the profile whizkydee.material-palenight-theme@2.0.4 vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json
+2025-03-18 00:39:09.172 [info] Getting Manifest... github.copilot
+2025-03-18 00:39:09.285 [info] Installing extension: github.copilot {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json","path":"/c:/Users/Charl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-03-18 00:39:09.608 [info] Getting Manifest... github.copilot-chat
+2025-03-18 00:39:09.668 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json","path":"/c:/Users/Charl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-03-18 00:39:10.723 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 199ms.
+2025-03-18 00:39:10.891 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 673ms.
+2025-03-18 00:39:11.337 [info] Extracted extension to file:///c%3A/Users/Charl/.vscode/extensions/github.copilot-chat-0.25.1: github.copilot-chat
+2025-03-18 00:39:11.353 [info] Renamed to c:\Users\Charl\.vscode\extensions\github.copilot-chat-0.25.1
+2025-03-18 00:39:11.460 [info] Extracted extension to file:///c%3A/Users/Charl/.vscode/extensions/github.copilot-1.284.0: github.copilot
+2025-03-18 00:39:11.469 [info] Renamed to c:\Users\Charl\.vscode\extensions\github.copilot-1.284.0
+2025-03-18 00:39:11.510 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json
+2025-03-18 00:39:11.510 [info] Extension installed successfully: github.copilot vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json
+2025-03-18 00:39:17.118 [info] Getting Manifest... eamodio.gitlens
+2025-03-18 00:39:17.259 [info] Installing extension: eamodio.gitlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json","path":"/c:/Users/Charl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-03-18 00:39:17.862 [info] Extension signature verification result for eamodio.gitlens: Success. Internal Code: 0. Executed: true. Duration: 140ms.
+2025-03-18 00:39:18.319 [info] Extracted extension to file:///c%3A/Users/Charl/.vscode/extensions/eamodio.gitlens-16.3.3: eamodio.gitlens
+2025-03-18 00:39:18.340 [info] Renamed to c:\Users\Charl\.vscode\extensions\eamodio.gitlens-16.3.3
+2025-03-18 00:39:18.403 [info] Extension installed successfully: eamodio.gitlens vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json
+2025-03-18 00:39:18.793 [info] Getting Manifest... github.vscode-pull-request-github
+2025-03-18 00:39:18.799 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json","path":"/c:/Users/Charl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-03-18 00:39:19.311 [info] Extension signature verification result for github.vscode-pull-request-github: Success. Internal Code: 0. Executed: true. Duration: 129ms.
+2025-03-18 00:39:19.495 [info] Extracted extension to file:///c%3A/Users/Charl/.vscode/extensions/github.vscode-pull-request-github-0.106.0: github.vscode-pull-request-github
+2025-03-18 00:39:19.496 [info] Renamed to c:\Users\Charl\.vscode\extensions\github.vscode-pull-request-github-0.106.0
+2025-03-18 00:39:19.560 [info] Extension installed successfully: github.vscode-pull-request-github vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json
+2025-03-18 00:39:58.476 [info] Getting Manifest... ms-edgedevtools.vscode-edge-devtools
+2025-03-18 00:39:58.616 [info] Installing extension: ms-edgedevtools.vscode-edge-devtools {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json","path":"/c:/Users/Charl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-03-18 00:39:59.087 [info] Extension signature verification result for ms-edgedevtools.vscode-edge-devtools: Success. Internal Code: 0. Executed: true. Duration: 101ms.
+2025-03-18 00:39:59.203 [info] Extracted extension to file:///c%3A/Users/Charl/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8: ms-edgedevtools.vscode-edge-devtools
+2025-03-18 00:39:59.212 [info] Renamed to c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8
+2025-03-18 00:39:59.265 [info] Extension installed successfully: ms-edgedevtools.vscode-edge-devtools vscode-userdata:/c%3A/Users/Charl/.vscode/extensions/extensions.json

@@ -1,0 +1,44 @@
+Error loading "hint" package from "c:\Users\Charl\Desktop\getya proyecto"
+Trying to load shared version
+Error loading shared "hint" package
+Error: Cannot find module 'hint'
+Require stack:
+- c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1232:15)
+    at Function.resolve (node:internal/modules/helpers:190:19)
+    at loadPackage (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:6158)
+    at a (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:8862)
+    at t.loadWebhint (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:9509)
+    at t.Analyzer.initWebhint (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:3305)
+    at t.Analyzer.validateTextDocument (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:3996)
+    at c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:185888
+    at i.invoke (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:39170)
+    at s.fire (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:39935) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\Charl\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\node_modules\\vscode-webhint\\dist\\src\\server.js'
+  ]
+}
+Installing shared version of "hint"
+"npm.cmd" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+Unable to install shared webhint instance Error: NoExitCodeZero
+    at ChildProcess.<anonymous> (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:7637)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+Unable to load shared webhint instance Error: Cannot find module 'hint'
+Require stack:
+- c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1232:15)
+    at Function.resolve (node:internal/modules/helpers:190:19)
+    at loadPackage (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:6158)
+    at a (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:9204)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async t.Analyzer.initWebhint (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:3283)
+    at async t.Analyzer.validateTextDocument (c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:3985)
+    at async c:\Users\Charl\.vscode\extensions\ms-edgedevtools.vscode-edge-devtools-2.1.8\node_modules\vscode-webhint\dist\src\server.js:1:185880 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\Charl\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\node_modules\\vscode-webhint\\dist\\src\\server.js'
+  ]
+}

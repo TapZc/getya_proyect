@@ -1,0 +1,6 @@
+2025-03-18 00:39:20.418 [info] GitLens v16.3.3 activating in Visual Studio Code (1.98.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (025edc4ca21f3a8aeb8d54c854f6affb0b060427ad062137f72872d1664ed851|5332d37b-b4dc-4cf7-8720-20caf8934b0b1742268294320)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-03-18 00:39:20.924 [info] [2025-03-18 05:39:20.517] Function.e
+EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open 'c:\Users\Charl\AppData\Local\gk\repoMapping.json'
+

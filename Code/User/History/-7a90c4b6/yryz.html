@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo - Bienvenido, Carlos</title>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            padding-top: 50px;
+        }
+        button {
+            background-color: green;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: limegreen;
+        }
+        #fraseMotivadora, #mensajePersonalizado {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        input[type="text"] {
+            padding: 8px;
+            border-radius: 15px;
+            border: 1px solid green;
+            background-color: black;
+            color: green;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola, soy Neo</h1>
+    <p>Estoy aquí para ayudarte a programar. ¡Vamos juntos hacia el éxito!</p>
+    <input type="text" id="nombreUsuario" placeholder="Escribe tu nombre...">
+    <button onclick="saludar()">Enviar Nombre</button>
+    <p id="mensajePersonalizado"></p>
+
+    <button onclick="mostrarFrase()">Obtener Frase Motivadora</button>
+    <p id="fraseMotivadora"></p>
+
+    <script>
+        function saludar() {
+            const nombre = document.getElementById('nombreUsuario').value;
+            const mensaje = `¡Hola, ${nombre}! Estoy aquí para acompañarte en tu camino como programador.`;
+            document.getElementById('mensajePersonalizado').textContent = mensaje;
+        }
+
+        function mostrarFrase() {
+            const frases = [
+                '"Si puedes imaginarlo, puedes programarlo." - Alejandro Taboada Sánchez (Programación ATS)',
+                'Cada error es un paso más hacia el éxito.',
+                'No te rindas, hoy puede ser el día que todo cambie.',
+                'El mejor programador no es el que nunca falla, sino el que nunca se rinde.',
+                'El código limpio es como poesía: elegante y fácil de entender.'
+            ];
+
+            const indice = Math.floor(Math.random() * frases.length);
+            document.getElementById('fraseMotivadora').textContent = frases[indice];
+        }
+    </script>
+</body>
+</html>

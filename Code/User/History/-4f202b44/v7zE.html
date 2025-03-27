@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<script>
+    function ejecutarCodigo() {
+        let codigo = document.getElementById("codigo").value;
+        let resultado = document.getElementById("resultado");
+        
+        // Por ahora, solo mostramos el código ingresado (simulación)
+        resultado.textContent = "Código ingresado:\n" + codigo;
+    }
+</script>
+
+
+<body>
+    <header>
+        <h1>Bienvenido a Neo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>¿Qué es Neo?</h2>
+        <p>Neo es un proyecto pensado para ayudar a programadores con recursos, herramientas y motivación.</p>
+    </section>
+
+    <section>
+        <h2>Recursos para Programadores</h2>
+        <p>Aquí encontrarás enlaces útiles en español para aprender y mejorar en programación.</p>
+        <ul>
+            <li><a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs</a> - Documentación oficial sobre HTML, CSS y JavaScript.</li>
+            <li><a href="https://lenguajejs.com/" target="_blank">LenguajeJS</a> - Guía completa sobre JavaScript en español.</li>
+            <li><a href="https://www.genbeta.com/desarrollo" target="_blank">Genbeta Dev</a> - Noticias y artículos sobre desarrollo en español.</li>
+            <li><a href="https://aprendejavascript.org/" target="_blank">Aprende JavaScript</a> - Curso interactivo de JavaScript en español.</li>
+            <li><a href="https://platzi.com/" target="_blank">Platzi</a> - Plataforma de aprendizaje con cursos en español.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Herramientas Útiles para Programadores</h2>
+        <p>Estas herramientas te ayudarán a escribir, probar y mejorar tu código.</p>
+        <ul>
+            <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> - Editor de código ligero y potente.</li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a> - Plataforma para gestionar proyectos y colaborar en código.</li>
+            <li><a href="https://git-scm.com/" target="_blank">Git</a> - Sistema de control de versiones.</li>
+            <li><a href="https://jsfiddle.net/" target="_blank">JSFiddle</a> - Entorno online para probar código JavaScript, HTML y CSS.</li>
+            <li><a href="https://www.postman.com/" target="_blank">Postman</a> - Herramienta para probar APIs.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Motivación para Programadores</h2>
+        <p>A veces el código puede ser desafiante, pero recuerda:</p>
+        <blockquote>
+            "Si puedes imaginarlo, puedes programarlo." - Programación ATS
+        </blockquote>
+        <p>Algunos consejos para mantenerte motivado:</p>
+        <ul>
+            <li>🔹 Divide los problemas en partes pequeñas.</li>
+            <li>🔹 Aprende algo nuevo cada día.</li>
+            <li>🔹 No temas cometer errores, son parte del proceso.</li>
+            <li>🔹 Únete a comunidades de programadores.</li>
+            <li>🔹 Celebra cada pequeño avance.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna duda o sugerencia? ¡Escríbeme!</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Curso de Programación</h2>
+        <p>Selecciona un lenguaje y prueba algunos ejercicios.</p>
+
+        <!-- Selector de lenguaje -->
+        <label for="lenguaje">Elige un lenguaje:</label>
+        <select id="lenguaje">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+
+        <!-- Ejercicio a resolver -->
+        <div id="ejercicio">
+            <h3>Ejercicio:</h3>
+            <p>Escribe un programa en Java que imprima "Hola, mundo".</p>
+        </div>
+
+        <!-- Cuadro para escribir código -->
+        <textarea id="codigo" rows="5" placeholder="// Escribe tu código aquí"></textarea>
+
+        <!-- Botón para ejecutar -->
+        <button onclick="ejecutarCodigo()">Ejecutar</button>
+
+        <!-- Resultado de la ejecución -->
+        <pre id="resultado"></pre>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Neo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

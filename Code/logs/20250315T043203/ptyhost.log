@@ -1,0 +1,5 @@
+2025-03-15 04:32:04.562 [info] Revived process, old id 152c5c67aebe495e06e60d5b36af3b0c-1 -> new id 1
+2025-03-15 04:32:04.713 [info] Expanding terminal instance, old id 152c5c67aebe495e06e60d5b36af3b0c-1 -> new id 1
+2025-03-15 04:32:05.235 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2025-03-15 04:32:05.235 [info] Persistent process reconnection "1"
+2025-03-15 04:32:05.386 [info] Persistent process "1": Replaying 674 chars and 1 size events
