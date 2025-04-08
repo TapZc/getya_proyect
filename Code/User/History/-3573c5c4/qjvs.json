@@ -1,9 +1,0 @@
-{
-    "workbench.colorTheme": "Default Dark+",
-    "git.openRepositoryInParentFolders": "always",
-    "window.confirmSaveUntitledWorkspace": false,
-    "workbench.productIconTheme": "fluent-icons",
-    "workbench.iconTheme": "symbols",
-    "editor.guides.bracketPairs": true,
-    "editor.cursorStyle": "line-thin"
-}

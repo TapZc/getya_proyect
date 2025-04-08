@@ -1,8 +1,0 @@
-2025-03-15 14:09:34.328 [info] Started local extension host with pid 3716.
-2025-03-15 14:09:34.672 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
-2025-03-15 14:09:34.673 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
-2025-03-15 14:09:34.673 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
-2025-03-15 14:09:34.689 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
-2025-03-15 14:09:35.900 [info] Settings Sync: Account status changed from uninitialized to unavailable
-2025-03-15 14:09:35.901 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
-2025-03-15 14:09:36.954 [info] [perf] Render performance baseline is 22ms

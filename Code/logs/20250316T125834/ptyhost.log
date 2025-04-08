@@ -1,4 +1,0 @@
-2025-03-16 13:11:51.088 [info] Expanding terminal instance, old id b5b5b74d9a59e71a7f649ec1fa24f892-1 -> new id undefined
-2025-03-16 13:11:52.675 [info] Persistent process reconnection "1"
-2025-03-16 13:11:52.784 [info] Persistent process "1": Replaying 50 chars and 1 size events
-2025-03-16 13:12:50.613 [info] Persistent process "2": The reconnection grace time of 1m has expired, shutting down pid "8532"
